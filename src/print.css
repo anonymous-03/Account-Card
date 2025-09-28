@@ -1,0 +1,8 @@
+@media print {
+  body {
+    background: white;
+  }
+  h2, button {
+    display: none;
+  }
+}
