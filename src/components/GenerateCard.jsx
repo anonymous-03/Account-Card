@@ -46,7 +46,7 @@ export default function GenerateCard({ user }) {
                     <p><strong>Mobile No:</strong> {user.mobile}</p>
                     <p><strong>Aadhar No:</strong> {user.aadhar}</p>
                     <p><strong>IFSC Code:</strong> {user.ifsc || "PUNB0MBGB06"}</p>
-                    <p><strong>Branch:</strong> {user.branch || "Chakosan 4183"}</p>
+                    <p><strong>Branch:</strong> {user.branch || "Chakosan 4138"}</p>
                 </div>
             </div>
 
