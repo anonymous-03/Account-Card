@@ -19,8 +19,6 @@ export default function GenerateCard({ user }) {
     const handlePrint = () => window.print();
     const printUser = {
         ...user,
-        ifsc: user.bank === "BGB" ? "PUNB0MBGB06" : "UBIN0931292",
-        branch: user.bank === "BGB" ? "Chakosan 4138" : "Rajendra Chowk, Hajipur",
     };
     // console.log(printUser);
 

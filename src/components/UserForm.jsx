@@ -7,6 +7,9 @@ export default function UserForm({ setUser }) {
     accountNo: "",
     mobile: "",
     aadhar: "",
+    ifsc: "",
+    branch: "",
+    csp: "",
     bank: "NULL",
   });
   const navigate = useNavigate();
@@ -36,7 +39,7 @@ export default function UserForm({ setUser }) {
       >
         <h2 className="text-2xl font-bold mb-4">Enter User Details</h2>
 
-        {["name", "accountNo", "mobile", "aadhar"].map((field) => (
+        {["name", "accountNo", "mobile", "aadhar","ifsc","branch","csp"].map((field) => (
           <input
             key={field}
             name={field}
